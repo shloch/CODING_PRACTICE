@@ -18,17 +18,10 @@ minMinMax([2, -4, 8, -5, 9, 7]); //[-5, -3,9]
 =end
 
 def min_min_max(array)
-  answer = []
-  array2 = array.sort
-  answer << array2.first
-  
-  missing = array2.first
-  while(array2.include?(missing))
-    missing = missing + 1
-  end
-  answer << missing
-  answer << array2.last
-  answer
+  min = array.min
+  max = array.max
+  missing = (min+1..max-1).detect { |x| !array.include?(x) }
+  return [min,missing,max]
 end
 
 p min_min_max([-1, 4, 5, -23, 24])
