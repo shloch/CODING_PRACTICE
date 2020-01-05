@@ -1,4 +1,12 @@
-# CODING_PRACTICE
+<h1 align="center">CODING_PRACTICE</h1>
+<p>
+            Design by <br />
+            @shloch and @belle_agbor  <br />
+            <a href="https://twitter.com/shloch" target="_blank">
+                <img alt="Twitter: @shloch" src="https://img.shields.io/twitter/follow/shloch.svg?style=social" />
+            </a> <br/>
+                https://www.codewars.com/users/shloch/badges/small
+</p>
 
 Sample coding challenges out of the many i usually do in codewars.com
 
