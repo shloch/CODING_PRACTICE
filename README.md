@@ -1,7 +1,5 @@
 <h1 align="center">CODING_PRACTICE</h1>
 <p>
-            By <br />
-            @shloch <br />
             <a href="https://twitter.com/shloch" target="_blank">
                 <img alt="Twitter: @shloch" src="https://img.shields.io/twitter/follow/shloch.svg?style=social" />
             </a> <br/>
