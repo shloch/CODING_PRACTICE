@@ -11,12 +11,12 @@
 //  ""              ==>  ""
 
 function cleanString(s) {
-    let tmpArr = [...s.split('')];
+  const tmpArr = [...s.split('')];
+  while (tmpArr[0] === '#') tmpArr.shift();
+  while (tmpArr.includes('#')) {
+    const index = tmpArr.indexOf('#');
+    tmpArr.splice(index - 1, 2);
     while (tmpArr[0] === '#') tmpArr.shift();
-    while (tmpArr.includes('#')) {
-      let index = tmpArr.indexOf('#');
-      tmpArr.splice(index-1, 2)
-      while (tmpArr[0] === '#') tmpArr.shift();
-    }
-    return tmpArr.join('');
-};
+  }
+  return tmpArr.join('');
+}

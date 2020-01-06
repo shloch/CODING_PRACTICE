@@ -9,7 +9,7 @@ Example :
 */
 
 
-function countVowels(string){
+function countVowels(string) {
   let total = 0;
   string.split(" ").forEach((word) => {
     if (count(word) > 1) total++
@@ -18,17 +18,17 @@ function countVowels(string){
 }
 
 function count(givenStr) {
-    let count = 0;  
-    for(let i = 0; i < givenStr.length; i++){
-      if('aeiouAEIOU'.includes(givenStr.charAt(i)) ){
-        count ++;
-      }
+  let count = 0;
+  for (let i = 0; i < givenStr.length; i++) {
+    if ('aeiouAEIOU'.includes(givenStr.charAt(i))) {
+      count++;
     }
-    return count;
+  }
+  return count;
 }
 
 
 // ---------- testing sample ------------------------
-Test.assertEquals(countVowels("my first kata"),1, "The string has 1 word containing a second vowels");
-Test.assertEquals(countVowels("Once upon a time"),3, "Should account for upper case elements");
-Test.assertEquals(countVowels(""),0, "Empty string");
+// Test.assertEquals(countVowels("my first kata"),1, "The string has 1 word containing a second vowels");
+// Test.assertEquals(countVowels("Once upon a time"),3, "Should account for upper case elements");
+// Test.assertEquals(countVowels(""),0, "Empty string");
