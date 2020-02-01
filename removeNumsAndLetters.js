@@ -16,6 +16,11 @@ lowerCaseLetters("G4e5o6r7g8e L432ike4543s Re453ad543ing Bo4535ok4355s")
 ===> "george likes reading books"
 */
 
+
+/**
+ * 
+ * @param {String} str 
+ */
 function lowerCaseLetters(str) {
   const arr = [];
   str.split('').forEach((x) => {
