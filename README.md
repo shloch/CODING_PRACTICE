@@ -16,4 +16,4 @@ Have completed more than 200 coding algorithms on codewars.com in 5 programming 
 
 MORE exercises --> https://www.codewars.com/users/shloch/completed_solutions
 
-![alt text](https://github.com/shloch/CODING_PRACTICE/blob/master/profile.png)
+![alt text](https://github.com/shloch/CODING_PRACTICE/blob/master/codewars.gif)
