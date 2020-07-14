@@ -14,6 +14,23 @@ Have completed more than 200 coding algorithms on codewars.com in 5 programming 
 - php
 - ruby
 
+## Linting
+
+Linting is configured on this repo for Ruby (rubocop) and Javascript (EsLint)
+
+### Javascript
+
+Type: `npx eslint --fix Javascript/js_file.js` to automatically fix Javascript linting errors
+
+More on eslint commands here ==> https://eslint.org/docs/user-guide/command-line-interface
+
+### Ruby
+
+Type: `rubocop -x Ruby/ruby_file.rb ` to aotomatically format the ruby codes
+
+More on Rubocop commands here ==> https://docs.rubocop.org/rubocop/0.87/usage/basic_usage.html
+
+
 MORE exercises --> https://www.codewars.com/users/shloch/completed_solutions
 
 ![alt text](https://github.com/shloch/CODING_PRACTICE/blob/master/codewars.gif)
