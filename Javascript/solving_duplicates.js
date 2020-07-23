@@ -59,23 +59,17 @@ output = {
 
 
 const removeDuplicateIds = (obj) => {
-  const keysArr_tmp = Object.keys(obj);// collect keys
-  // convert keys to number
-  const keysArr = [];
-  keysArr_tmp.forEach((key) => keysArr.push(+key));
-  keysArr.sort((a, b) => a - b).reverse();
-
-
-  const tmp = [];
-  const answer = {};
-  keysArr.forEach((key) => {
-    answer[key] = [];
-    obj[key].forEach((subArrElement) => {
-      if (!tmp.includes(subArrElement)) {
-        tmp.push(subArrElement);
-        answer[key].push(subArrElement);
-      }
-    });
-  });
-  return answer;
+    const keysArr = Object.keys(obj).sort((a,b) => a - b).reverse()
+    const tmp = []
+    const answer = {}
+    keysArr.forEach((key) => {
+      answer[key] = []
+      obj[key].forEach(subArrElement => {
+        if (!tmp.includes(subArrElement)) {
+          tmp.push(subArrElement)
+          answer[key].push(subArrElement)
+        } 
+      })
+    })
+  return answer
 };
