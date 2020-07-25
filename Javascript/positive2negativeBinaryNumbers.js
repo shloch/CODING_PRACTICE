@@ -31,6 +31,8 @@ Add 1
 [1,1,1,0] = -2
 
 However, the arrays can have varying lengths, not just limited to 4.
+
+EXERCISE ==> https://www.codewars.com/kata/5becace7063291bebf0001d5
 */
 
 
