@@ -34,3 +34,7 @@ More on Rubocop commands here ==> https://docs.rubocop.org/rubocop/0.87/usage/ba
 MORE exercises --> https://www.codewars.com/users/shloch/completed_solutions
 
 ![alt text](https://github.com/shloch/CODING_PRACTICE/blob/master/codewars.gif)
+
+
+## Acknowledgements
+- www.codewars.com
