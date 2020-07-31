@@ -6,7 +6,7 @@ Reversing the binary is 100001011 which is 267.
 
 You can assume that the number is not negative.
 
-EXERCISE --> https://www.codewars.com/kata/5959ec605595565f5c00002b/train/javascript
+EXERCISE --> https://www.codewars.com/kata/5959ec605595565f5c00002b
 */
 
 function reverseBits (n) {
