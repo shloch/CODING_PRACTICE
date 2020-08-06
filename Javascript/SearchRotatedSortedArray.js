@@ -1,4 +1,7 @@
-narySearch = function (arr, x, start, end) { 
+// letcode challenge --> https://leetcode.com/problems/search-in-rotated-sorted-array/
+
+
+let binarySearch = function (arr, x, start, end) { 
        
     
     //let first = arr[0]
