@@ -136,5 +136,7 @@ module.exports = MyHeap;
  * const MyHeap = require(`./heaps`);
  * const h = new MyHeap()
  * h.add(66) <-------add items
+ * h.add(63) <-------add items
+ * h.remove() <------remove item (from TOP)
  *
  */
