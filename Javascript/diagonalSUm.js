@@ -23,8 +23,6 @@ function sum(matrix) {
   let sum = 0
   for(let i = 0; i < n; i++){
     sum += matrix[i][i]
-  }
-  for(let i = 0; i < n; i++){
     sum += matrix[i][n-1-i]
   }
   
