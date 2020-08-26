@@ -37,4 +37,5 @@ MORE exercises --> https://www.codewars.com/users/shloch/completed_solutions
 
 
 ## Acknowledgements
-- www.codewars.com
+- https://www.codewars.com
+- https://leetcode.com/
