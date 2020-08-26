@@ -39,3 +39,4 @@ MORE exercises --> https://www.codewars.com/users/shloch/completed_solutions
 ## Acknowledgements
 - https://www.codewars.com
 - https://leetcode.com/
+- https: //www.hackerrank.com
