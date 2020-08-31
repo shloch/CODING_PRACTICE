@@ -48,7 +48,7 @@ var smallerNumbersThanCurrent = function(nums) {
     
     // construct our object
     for (let s of set) {
-        obj[s] = countNumberSmallerNums(s, nums)
+        obj[s] = countNumsSmallerThanNumber(s, nums)
     }
     
     
@@ -62,9 +62,7 @@ var smallerNumbersThanCurrent = function(nums) {
 };
 
 function countNumberSmallerNums(num, arr) {
-    let count = 0
-    const total = arr.filter(val=> val < num)
-    return total.length
+    return arr.filter(val=> val < num).length
 }
 
 
