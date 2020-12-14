@@ -42,6 +42,10 @@ command consists of "G", "()", and/or "(al)" in some order.
  * @return {string}
  */
 var interpret = function(command) {
+
+    /*============= FASTER SOLUTIION (regex) ========================*/
+    //  return command.replace(/\(\)/g, "o").replace(/\(al\)/g, "al")
+    /*===============================================================*/
    
     let i = 0
     const answer = []
