@@ -35,3 +35,9 @@ function avoidObstacles(nums) {
 }
 
 avoidObstacles([5, 3, 6, 7, 9]);
+
+ <img class="card current" src="presents.jpg" alt="Christmas Cookies">
+                    <img class="card" src="cookies.jpg" alt="Christmas Cookies">
+                    <img class="card" src="santa.jpg" alt="Christmas Cookies">
+                    <img class="card" src="candycane.jpg" alt="Christmas Cookies">
+                    <img class="card" src="reindeer.jpg" alt="Christmas Cookies">
