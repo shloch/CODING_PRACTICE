@@ -44,5 +44,6 @@ function drawACross(n) {
     
   }
   return star.substring(1,star.length)
+
   
 }

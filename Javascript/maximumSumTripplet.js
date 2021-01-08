@@ -45,3 +45,30 @@ function maxTriSum(numbers){
   }
 }
 
+div[class="twin-blog-child"], .t-2-2, .t-1-2 {
+          padding-top: 5%;
+          padding-top: 2%;
+          padding-bottom: 3%;
+          border-top:1px solid $veryGray;
+          //border-bottom: 1px solid $veryGray;
+          display: grid;
+          grid-template-columns: 16% 84%;
+          .img {
+            //border:1px solid lightcoral;
+            img {
+              height: 80px;
+              width: 90px;
+            }
+          }
+          .caption {
+            //border:1px solid lightcoral;
+            .caption-p {
+              font-weight: 800;
+            }
+            .by {
+              font-size: 0.79em;
+              //border-top: 1px solid $veryGray;
+              color: $noSoBlack;
+            }
+          }
+        }
