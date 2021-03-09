@@ -23,3 +23,4 @@ function hexHash(code){
   }
   return sum
 }
+
