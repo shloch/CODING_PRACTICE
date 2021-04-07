@@ -20,7 +20,9 @@ maskify("Skippy")                                   == "##ippy"
 maskify("Nananananananananananananananana Batman!") == "###
 */
 
-// return masked string
+// ------------------------------------------------
+//         solution 1
+// ------------------------------------------------
 function maskify(cc) {
   if(cc.length > 4) {
     let last4 = ''
@@ -34,4 +36,11 @@ function maskify(cc) {
     return mask+last4
   } else
     return cc
+}
+
+// ------------------------------------------------
+//         solution 2
+// ------------------------------------------------
+function maskify(cc) {
+  return cc.slice(0, -4).replace(/./g, '#') + cc.slice(-4)
 }
