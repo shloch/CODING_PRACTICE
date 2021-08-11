@@ -11,9 +11,6 @@
 # CODEWARS = https://www.codewars.com/kata/5513795bd3fafb56c200049e
 
 
-8 kyu
-Count by X
-Python:
 def count_by(x, n):
     arr = []
     for i in range(1,n+1):
