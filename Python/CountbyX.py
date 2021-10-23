@@ -10,7 +10,6 @@
 # count_by(2,5) #should return [2,4,6,8,10]
 # CODEWARS = https://www.codewars.com/kata/5513795bd3fafb56c200049e
 
-
 def count_by(x, n):
     arr = []
     for i in range(1,n+1):

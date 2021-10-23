@@ -17,6 +17,9 @@ abbbbb
 
 cbdeuuu900
 [ 'u', 3 ]
+
+aabb
+[ 'a', 2 ]
 */
 
 function longestRepetition(s) {
